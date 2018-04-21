@@ -51,7 +51,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\Destructor.cs" />
+     <Compile Include="Assets\Generator.cs" />
+     <Compile Include="Assets\Move.cs" />
      <Compile Include="Assets\PlayerController.cs" />
+     <Compile Include="Assets\She.cs" />
+     <Compile Include="Assets\TextField.cs" />
+     <Compile Include="Assets\TText.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
