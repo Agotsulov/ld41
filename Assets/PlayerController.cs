@@ -25,14 +25,14 @@ public class PlayerController : MonoBehaviour {
 		//Vector3 movement = new Vector3 (moveHorizontal,moveVertical, 0.0f);
 		//rb.AddForce (movement * speed);
 
-		if((Input.GetKeyDown(KeyCode.W)) && (currentLine > 1)){
+		if((Input.GetKeyDown(KeyCode.UpArrow)) && (currentLine > 1)){
 			Vector3 movement = new Vector3 (0.0f, 1.0f, 0.0f);
 			Debug.Log ("MOVE UP " + currentLine);
 			transform.Translate (movement * speed);
 			//rb.AddForce (movement * speed);
 			currentLine--;
 		}
-		if((Input.GetKeyDown(KeyCode.S)) && (currentLine < 3)){
+		if((Input.GetKeyDown(KeyCode.DownArrow)) && (currentLine < 3)){
 			Vector3 movement = new Vector3 (0.0f, -1.0f, 0.0f);
 			Debug.Log ("MOVE DOWN "  + currentLine);
 			transform.Translate (movement * speed);
